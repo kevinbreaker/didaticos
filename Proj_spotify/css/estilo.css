@@ -1,0 +1,149 @@
+/*
+*
+*@Authoe Kevin Martin
+*@Version 0.1
+*/
+
+/* ======================= LAYOUT =========================*/
+html,body,.capa{
+	height:100%
+}
+body {
+	background: url('../img/capa.png'),url('../img/ruido.png')
+	,linear-gradient(50deg,#ff4169,#7C26F8);
+	background-attachment: fixed;
+	font-family: Circular,Helvetica,Arial,sans-serif;
+	overflow-x:hidden;
+	}
+/* --- BARRA DE NAVEGAÇÃO --- */
+.img-logo{
+	height: 40px;
+	width: 132px;
+	display: block;
+	background: url('../img/spotify.svg') no-repeat;
+	background-size: contain;
+	color: transparent;
+}
+
+nav.navbar-transparente {
+	padding: 15px 0px;
+	background: rgba(0,0,0,0.5);
+	border: nome;
+}
+.navbar-brand{
+	padding: 5px 9px;
+}
+
+.divisor{
+	background:white;
+	width: 1px;
+	height: 19px;
+	margin: 15px 5px;
+}
+.navbar-inverse .navbar-nav>li>a,footer .nav a{
+	color:white;	
+}	
+.navbar-inverse .navbar-nav>li>a:hover, footer .nav a:hover{
+	color:#9bf0e1;	
+	background:none;
+}
+/* -- IMAGEM DA CAPA -- */
+.capa{
+	display:table;
+	width:100%;
+}
+.capa-text{
+	display:table-cell;
+	text-align:center;
+	color:white;
+	vertical-align:middle;
+}
+/* -- BOTOES -- */
+.btn-custom{
+	color:white;
+	border-radius: 500px;
+	-webkit-border-radius: 500px;
+	padding: 10px 35px;
+	margin: 0 15px;
+	text-transform:uppercase;
+	transition: background 0.4s, color 0,4s;
+	
+}
+.btn-roxo{
+	background:#7c26f8;
+}
+.btn-roxo:hover{
+	background:#6207e3;
+	color:white;
+}
+.btn-branco{
+ border: 2px solid white;
+}
+.btn-branco:hover{
+ background:white;
+ color:black;
+}
+/***** SERVIÇOS *****/
+#servicos{
+	background: #fff;
+	padding-bottom:20px;
+	padding-top:20px;
+}
+.albuns{
+	padding: 10px 0 10px 0;
+}
+/***** RECUSOS *****/
+#recursos{
+	
+	padding-bottom:20px;
+	padding-top:20px;
+	color: #fff;
+}
+.rotacionar{
+ -ms-transform: rotate(30deg);
+ -webkit-transform: rotate(30deg);
+ transform: rotate(30deg);
+ padding-left: 80px;
+}
+/* -- RODAPÉ -- */
+footer{
+	background: #000;
+	padding: 50px 0px 20px 0px;
+	position:relative;
+	
+}
+.rede-social{
+	float: right;
+}
+/* ======================== TIPOGRAFIA ========================*/
+
+
+h1{ 
+	font-size: 100px;
+	font-weight: 900;
+	letter-spacing: -0.05em;
+	margin-bottom: 50px;
+	font-family: Circular,Helvetica,Arial,sans-serif;
+}
+h2{
+	font-size: 50px;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+	
+}
+h3{
+	font-size: 35px;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+}
+#rodape h4{
+	color: #919496;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+#servicos h2, #servicos h3{
+	color: #7c26f8;
+}
+#recursos h3{
+	color:#9bf0e1;
+}
