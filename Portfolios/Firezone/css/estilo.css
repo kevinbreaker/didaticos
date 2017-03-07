@@ -1,0 +1,125 @@
+
+.bodyTeste body{
+	background-image:  url('imagens/WalBack.png');       
+  background-attachment: fixed;   
+  font-family: Helvetica,Arial,sans-serif;  
+  overflow-x: hidden;"
+	 	
+}
+
+
+.img-log{
+	height: 40px;  			/* altura da logo  */
+	width: 132px;			/* largura da logo  */
+	display: block;			/* display do tipo Block  */
+	background: url('../imagens/logo.png') no-repeat;  /* imagem da logo em svg e que não repita  */
+	background-size: contain;/* Escala a img, para q tenha a mesma altura e largura definida nesse bloco */
+	color: transparent;  			/* Cor transparente  */
+
+}
+nav.navbar-transparente{
+	padding: 15px 0px; 		/* padding  */
+	background: rgba(0,0,0,0.6); /* Cor rgba, com opacidade de 0.6, para de transparencia  */
+	border: none; /* remove as bordas */
+}
+
+.navbar-brand{
+	
+	padding: 5px 15px;
+}
+
+
+.navbar-inverse .navbar-nav>li>a, #rodape .nav a{
+	color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover{
+	color: #9bf0e1;
+	background: none;
+}
+
+.capaInicial{
+
+	margin-top: -100px;
+
+}
+
+#cabecalho h1{
+position: relative;
+left: 600px;
+}
+#competencias{
+	color: #CCCCCC;
+}
+.classWal{
+	color:white;
+	background-color: #0F0F0F;
+	opacity: 0.9;
+
+}
+.walPerfil img{
+	border: 1px solid white;
+	margin: 20px;
+	position: relative;
+	left: 20px;
+	opacity: 1;
+}
+.redeSocial{
+	position: absolute;
+	top: 0px;
+	right: 80px;
+	margin: 10px;
+	padding: 5px;
+}
+.WalResumo{
+
+	background: #ffffff;
+	width: 1365px;
+	height: 300px;
+}
+.WalBackEnd{
+	background-color: #FFFFFF;
+	height: 400px;
+}
+
+.WalCer{
+	background-color: #000000;
+	height: 600px;
+}
+
+#transparente{
+	background: transparent;
+	height: 600px;
+	position: relative;
+}
+
+.iconFront{
+	margin: 15px;
+	padding: 10px;
+	background: white;
+	border: 1px double black;
+	border-radius: 50px;
+	/*width: 500px;*/
+	height: 340px;
+}
+
+#borderimg { 
+    border: 3px double black;
+    padding: 15px;
+   	border-radius: 25px;
+}
+#testeGrafico{
+
+float: right;
+position: relative;
+
+
+}
+.rodape{
+	background-color: black;
+	color: white;
+	width: 100%
+	height: 100px;
+	margin: 10px 0px 0px 0px;
+
+}
